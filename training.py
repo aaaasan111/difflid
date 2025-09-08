@@ -46,7 +46,7 @@ def create_difflid_args():
     parser.add_argument('--pin_memory', type=bool, default=False)
     parser.add_argument('--num_workers', type=int, default=2, help='Number of DataLoader worker threads')
     # Training parameters
-    parser.add_argument('--resize', type=int, default=64, help='Input image resize size')
+    parser.add_argument('--resize', type=int, default=128, help='Input image resize size')
     parser.add_argument('--batch_size', type=int, default=7)
     parser.add_argument('--total_epochs', type=int, default=1200, help='Total training epochs')
     parser.add_argument('--lr', type=float, default=2e-4, help='Initial learning rate')
